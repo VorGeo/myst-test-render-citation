@@ -5,7 +5,9 @@ kernelspec:
   language: python
 ---
 
-# Renders as a citation when added directly to the markdown file
+# Test out rendering citations
+
+## Added directly to the markdown file
 
 :::{hint} Markdown
 ```markdown
@@ -17,7 +19,7 @@ Tropical rainforest [@kress2003checklist], Lowland evergreen rainforest [@connet
 Tropical rainforest [@kress2003checklist], Lowland evergreen rainforest [@connette2016mapping]
 :::
 
-# However, the citation DOES NOT render when evaluating a variable
+## As the result of evaluating a variable
 
 :::{hint} Markdown
 ````markdown
