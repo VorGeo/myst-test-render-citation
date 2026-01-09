@@ -10,8 +10,8 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   bibliography:
   - my_references.bib
-# site:
-#   template: book-theme
+site:
+  template: book-theme
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
