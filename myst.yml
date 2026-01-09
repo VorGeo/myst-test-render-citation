@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: aff777af-1a27-44cc-afbd-74fd44d73c66
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/VorGeo/myst-test-render-citation
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  bibliography:
+  - my_references.bib
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

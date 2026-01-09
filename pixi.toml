@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Tyler Erickson <tyler@vorgeo.com>"]
+channels = ["conda-forge"]
+name = "myst-test-render-citation"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mystmd = ">=1.7.1,<2"
+jupyter = ">=1.1.1,<2"
